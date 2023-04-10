@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOx</title>
+    <style>
+        .boxes {
+            background-attachment:purple;
+            /* box-sizing: border-box; */
+        }
+        .bx {
+            background-color: aquamarine;
+            height: 100px;
+            width:100px;
+            margin-top: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            /* by using border box while you use padding inside div it doesnt expand. */
+        }
+        .bx1 {
+            background-color: goldenrod;
+            height: 100px;
+            width:100px;
+            margin-top: 10px;
+            padding: 10px;
+            /* here using padding but not using border box. */
+        }
+        #bx01 {
+            /* float: right; */
+            position:fixed;
+            margin-left: 500px;
+            padding-left: 30px;
+            border-radius: 20px;
+        }
+        
+    </style>
+</head>
+<!-- box-sizing=border box -->
+<body>
+    <div class="boxes">
+        <div class="bx">bOx1</div>
+        <div class="bx1" id="bx01">I won't move from here </div>
+        <div class="bx">Box@3</div>
+        <div class="bx1">Box@4</div>
+        <div class="bx">Box@5</div>
+        <div class="bx1">Box@6</div>
+        <div class="bx">Box@7</div>
+        <div class="bx1">Box@8</div>
+        <div class="bx">Box@9</div>
+        <div class="bx1">Box@10</div>
+        <div class="bx">Box@11</div>
+        <div class="bx1">Box@12</div>
+        <div class="bx">Box@13</div>
+        <div class="bx1">Box@15</div>
+
+    </div>
+</body>
+</html>

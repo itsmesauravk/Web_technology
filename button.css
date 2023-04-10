@@ -4,8 +4,10 @@ body{
 button {
     padding: 30px;
     margin-top: 100px;
-    border-radius: 15px;
+    border-radius: 50%;
     font-weight: bold;
+    background-color: brown;
+    border: none;
 }
 button:hover {
     background-color: plum;

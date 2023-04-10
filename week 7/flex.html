@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            background-color: aqua;
+        }
+        .flex-container {
+            background-color: burlywood;
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box {
+            border: 2px solid black;
+            width: 50px;
+            height: 50px;
+            margin-top: 20px;
+            margin: 10px;
+            background-color: bisque;
+            /* flex-wrap: wrap; */
+        }
+        .b1{
+            background-color: blueviolet;
+            flex-grow: 1;
+            flex-shrink: ;
+        }
+        .b2{
+            background-color: orange;
+            flex-grow: 3;
+        }
+        .b3{
+            background-color: blueviolet;
+            flex-grow: 4;
+        }
+        
+
+    </style>
+</head>
+<body>
+   <div>
+    <div>
+        <h1>Helloo there i am not from this planet.</h1>
+        <p>2023 grow your body structure.</p>
+        <p>April 18, 2020</p>
+    </div>
+    <div class="flex-container">
+        <div class="box b1"> BOx</div>
+        <div class="box b2"> BOx1</div>
+        <div class="box b3"> BOx2</div>
+    </div>
+   </div> 
+</body>
+</html>
