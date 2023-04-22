@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: goldenrod;
+    background-image: url(back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    
+}
+header {
+    /* background-color: aqua; */
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#h0 {
+    margin-left: 80px;
+}
+#h1 {
+    margin-left: 150px;
+}
+#h2 {
+    margin-left: 650px;
+}
+#h3 {
+    margin-left: 200px;
+}
+
+.btn {
+    /* background-color: bisque; */
+    width: 40%;
+    height: 548px;
+    float: left;
+}
+.btn #gameP {
+    padding: 80px;
+    margin-left: 255px;
+    margin-top: 30px;
+    border-radius: 10%;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* .btn #gameP #d1 {
+    height: 40px;
+    width: 40px;
+} */
+.btn #matchH {
+    padding: 70px;
+    margin-left: 255px;
+    margin-top: 60px;
+    border-radius: 10%;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.detail {
+    background-color:#000C66;
+    border: 3px solid gold;
+    width: 800px;
+    margin-top: 30px;
+    margin-right: 50px;
+    float: right;
+    height: 515px;
+}
+.detail #divdiv1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.detail #divimg {
+    height: 150px;
+    width: 150px;
+    margin-left: 300px;
+    margin-top: 63px;
+}
+.detail #ch {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 280px;
+    margin-top: 30px;
+}
+.detail #ch1 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 200px;
+    margin-top: 20px;
+    color: white;
+
+}
+.bck {
+    margin-top: 30px;
+    margin-left: 130px;
+    padding-left: 15px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid ;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: yellow;
+
+}
+.bck #bck1 {
+    height: 30px;
+    width: 30px;
+}
+
