@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    #d1{
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        border-radius: 19px;
+        position: relative;
+        animation: box 5s infinite;
+        /* name...duration....repetation */
+    }
+    @keyframes box {
+        from{top: 20px;}
+        to{top: 200px;}
+    }
+
+    #d2{
+        text-align: center;
+        margin-top: 200px;
+        width: 100px;
+        height: 100px;
+        background-color: plum;
+        border-radius: 50px;
+        position: relative;
+        animation: box2 5s infinite;
+    }
+    @keyframes box2 {
+        0%{top: 20px;left: 20px;}
+        50%{top: 20px;left: 200px;}
+        100%{top:20px ;left: 20px;}
+    }
+
+    #d3{
+        text-align: center;
+        margin-top: 100px;
+        width: 100px;
+        height: 100px;
+        background-color: chartreuse;
+        border-radius: 19px;
+        position: relative;
+        animation: box3 5s infinite;
+    }
+    @keyframes box3 {
+        0%{top: 20px;left: 20px;}
+        25%{top: 20px;left: 200px;background-color: coral;}
+        50%{top: 150px;left: 200px;background-color: darkgreen;}
+        75%{top:150px; left: 20px;background-color: fuchsia;}
+        100%{top: 20px;left: 20px;}
+    }
+</style>
+<body>
+    
+    <div id="d1">top to bottom</div>
+
+    
+    <div id="d2">left to right</div>
+
+
+    <div id="d3">color change</div>
+</body>
+</html>
