@@ -51,7 +51,7 @@
 .item3 {
     background-color: blueviolet;
     grid-row: span 2;
-    grid-column: span 3;
+    grid-column: span 2;
 }
 .item5 {
     background-color: darkcyan;
@@ -60,7 +60,7 @@
 }
 .item6 {
     background-color: darkmagenta;
-    grid-area: 2/3/3/4;
+    grid-area: 2/3/5/4;
     /* row strt/column strt/row end/column end */
 }
 .item7 {
