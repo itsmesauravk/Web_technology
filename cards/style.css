@@ -62,6 +62,7 @@ button {
     margin-left: 178px;
     margin-top: 5px;
     margin-bottom: 5px;
+    transition: ease-in-out .5s;
 }
 button:hover {
     background-color: darkgreen;
