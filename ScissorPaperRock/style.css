@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    border: 2px solid black;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+.game {
+    display: flex;
+    justify-content: space-around;
+    height: 480px;
+    border: 1px dotted;
+}
+.game .player1 {
+    padding-top: 2rem;
+}
+.game .player2 {
+    padding-top: 2rem;
+}
+.game .display {
+    margin-top:80px;
+    border: 2px solid black;
+    padding: 20px 30px;
+}
+.game .btn {
+    margin-top: 180px;
+}
+.btn button {
+    padding: 16px 30px;
+}

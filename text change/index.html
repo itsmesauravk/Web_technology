@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            background-image: url(bgimage.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .text {
+            padding-top: 370px;
+        }
+        #changing {
+            color: black;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="text">
+            <p id="changing"></p>
+        </div>
+    </div>
+
+    <script>
+        const textchange  = document.querySelector("#changing");
+    const textvalue = ["Wecome MY friend",
+                    "in my learning",
+                    "process of this",
+                    "text-changing",
+                    "Thankyou 🙂"];
+    let counter = 0;
+    setInterval(()=>{
+    textchange.textContent = textvalue[counter];
+    counter=(counter+1)% textvalue.length;
+    },3000);
+    </script>
+</body>
+</html>
