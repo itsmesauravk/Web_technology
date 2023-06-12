@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 8px;
+
+}
+.logo{
+    font-weight: 700;
+}
+.fa-youtube {
+    color: red;
+}
+header img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+.others {
+    display: flex;
+    gap: 0.5rem;
+}
